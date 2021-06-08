@@ -1,4 +1,4 @@
-package array;
+package shivam.array;
 
 import java.util.Scanner;
 
