@@ -11,6 +11,11 @@ public class UtilLinkedList {
 	}
 
 	public static void printLinkedList(Node root) {
+		if (root == null) {
+			System.out.println("Empty LinkedList...");
+			return;
+		}
+			
 		while (root.next != null) {
 			System.out.print(root.val + " --> ");
 			root = root.next;
